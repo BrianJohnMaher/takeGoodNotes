@@ -27,7 +27,7 @@ app.post('/api/notes', (req, res) => {
     console.log(req.body)
 
     readAndAppend(req.body, './db/db.json');
-    res.json(`Notw added`);
+    res.json(`Note added`);
 });
 
 
