@@ -5,6 +5,9 @@
 This app will allow the end-user, to write and store notes.
 Express.js was utilized, to establish the routes, making the starter code operate as originally intended. FS package was utilized, as a local database to track, store, and recall saved notes.
 
+The deployed app may be found @: 
+><https://infinite-fortress-52013-346913409894.herokuapp.com/>
+
 ## Installation
 
 1. Clone this repo onto your system
@@ -19,7 +22,7 @@ Express.js was utilized, to establish the routes, making the starter code operat
 
 ## Usage
 
-This app can be used to create and delete notes for your everyday life.
+This app may be used to create, store and delete notes for your everyday life.
 
 ![TakeGoodNotes App Home Page](./public/assets/css/TakeGoodNotes.jpeg)
 ![TakeGoodNotes App Page](public/assets/css/TakeGoodNotes2.jpeg)
