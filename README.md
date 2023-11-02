@@ -13,7 +13,7 @@ Express.js was utilized, to establish the routes, making the starter code operat
 
 3. Run `npm start` to start the app
 
-4. Go to <http://localhost:3333>
+4. Go to <http://localhost:3001>
 
 5. Take some notes!
 
@@ -21,8 +21,9 @@ Express.js was utilized, to establish the routes, making the starter code operat
 
 This app can be used to create and delete notes for your everyday life.
 
-![TakeGoodNotes App Home Page]()
-![TakeGoodNotes App  Page]
+![TakeGoodNotes App Home Page](./public/assets/css/TakeGoodNotes.jpeg)
+![TakeGoodNotes App Page](public/assets/css/TakeGoodNotes2.jpeg)
+![TakeGoodNotes App Page](public/assets/css/TakeGoodNotes3.jpeg)
 
 ## Contributions
 
