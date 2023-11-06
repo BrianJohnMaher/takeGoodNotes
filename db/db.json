@@ -4,35 +4,8 @@
         "text": "Test text"
     },
     {
-        "title": "hello",
-        "text": "hello"
-    },
-    {
-        "title": "test note",
-        "text": "new note"
-    },
-    {
-        "title": "work",
-        "text": "come on"
-    },
-    {
-        "title": "work",
-        "text": "come on"
-    },
-    {
-        "title": "work",
-        "text": "come on"
-    },
-    {
-        "title": "Brians note",
-        "text": "Workig"
-    },
-    {
-        "title": "New note for submission",
-        "text": "Test Note"
-    },
-    {
-        "title": "Another note for submission",
-        "text": "let's test it out!"
+        "title": "New Note",
+        "text": "with Id",
+        "id": "619a"
     }
 ]

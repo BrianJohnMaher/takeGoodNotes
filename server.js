@@ -4,6 +4,7 @@ const data = require('./db/db.json')
 const PORT = process.env.PORT || 3001;
 // Helper functions for reading and writing to the JSON file
 const { readFromFile, readAndAppend } = require('./helpers/fsUtils');
+const uuid = require('./helpers/uuid');
 
 const app = express();
 
@@ -24,9 +25,13 @@ app.get('/api/notes', (req, res) => {
 });
 
 app.post('/api/notes', (req, res) => {
-    console.log(req.body)
+    const newNote = {
+        title: req.body.title, 
+        text: req.body.text,
+        id: uuid()
+    }
 
-    readAndAppend(req.body, './db/db.json');
+    readAndAppend(newNote, './db/db.json');
     res.json(`Note added`);
 });
 
